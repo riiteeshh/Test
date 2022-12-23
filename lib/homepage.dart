@@ -1,3 +1,4 @@
+import 'package:assinment/sources/bodyy.dart';
 import 'package:flutter/material.dart';
 
 class HomePage extends StatefulWidget {
@@ -15,7 +16,7 @@ class _HomePageState extends State<HomePage> {
       backgroundColor: Color(0xEFFEEBEC),
       extendBodyBehindAppBar: true,
       appBar: PreferredSize(
-        preferredSize: Size.fromHeight(77),
+        preferredSize: Size.fromHeight(80),
         child: AppBar(
           backgroundColor: Colors.white, //Color(0xEFFEEBEC),
           elevation: 0,
@@ -42,10 +43,11 @@ class _HomePageState extends State<HomePage> {
                   child: Text(
                     'Good Morning,',
                     style: TextStyle(
-                      fontSize: 12,
+                      fontSize: 13,
                       letterSpacing: 0.5,
-                      color: Color.fromARGB(255, 99, 97, 97),
-                      // fontWeight: FontWeight.bold,
+                      color: Color.fromARGB(
+                          255, 159, 14, 4), //Color.fromARGB(255, 99, 97, 97),
+                      fontWeight: FontWeight.bold,
                       //fontStyle: FontStyle.italic
                     ),
                   ),
@@ -56,7 +58,7 @@ class _HomePageState extends State<HomePage> {
                   child: Text(
                     'Ritesh Pandey',
                     style: TextStyle(
-                        letterSpacing: 0.1,
+                        letterSpacing: 0.5,
                         color: Colors.black,
                         fontWeight: FontWeight.bold,
                         fontFamily: 'NotoSerif',
@@ -73,7 +75,7 @@ class _HomePageState extends State<HomePage> {
                   padding: EdgeInsets.only(right: 10),
                   child: IconButton(
                     icon: Icon(
-                      Icons.notifications_outlined,
+                      Icons.notifications_active_rounded,
                       color: Color.fromARGB(255, 178, 171, 171),
                     ),
                     onPressed: () {},
@@ -85,8 +87,12 @@ class _HomePageState extends State<HomePage> {
         ),
       ),
       body: SafeArea(
-        child: Container(),
-      ),
+          child: SingleChildScrollView(
+        scrollDirection: Axis.vertical,
+        child: Column(
+          children: [Boddy()],
+        ),
+      )),
     );
   }
 }
