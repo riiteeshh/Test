@@ -60,7 +60,7 @@ class _HomePageState extends State<HomePage> {
                         color: Colors.black,
                         fontWeight: FontWeight.bold,
                         fontFamily: 'NotoSerif',
-                        fontSize: 18),
+                        fontSize: 19),
                   ),
                   alignment: Alignment.centerLeft,
                   margin: EdgeInsets.only(left: 85, top: 30),
