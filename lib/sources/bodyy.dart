@@ -18,6 +18,7 @@ class _BoddyState extends State<Boddy> {
       height: 90,
       margin: EdgeInsets.only(top: 8, left: 2, right: 2),
       child: Card(
+        color: Color(0xEFFEEBEC),
         elevation: 5,
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(15),
