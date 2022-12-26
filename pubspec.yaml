@@ -81,6 +81,10 @@ flutter:
       fonts:
         - asset: fonts/BreeSerif-Regular.ttf
 
+    - family: Lobster
+      fonts:
+        - asset: fonts/Lobster.ttf
+
     - family: NotoSerif
       fonts:
         - asset: fonts/RobotoSlab-VariableFont_wght.ttf

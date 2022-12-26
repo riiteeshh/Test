@@ -44,7 +44,7 @@ class MainPage extends StatelessWidget {
                       fontWeight: FontWeight.bold,
                       fontSize: 30,
                       color: Colors.black,
-                      fontFamily: 'BowlbyOne',
+                      fontFamily: 'Lobster',
                       fontStyle: FontStyle.normal),
                 ),
               ),
