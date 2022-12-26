@@ -67,9 +67,11 @@ class _AppBarWidgetState extends State<AppBarWidget> {
               Icons.notifications_active_rounded,
               color: Color.fromARGB(255, 178, 171, 171),
             ),
-            onPressed: () {},
+            onPressed: () {
+              Navigator.pushReplacementNamed(context, '/loginpage');
+            },
           ),
-        )
+        ),
       ],
     );
   }

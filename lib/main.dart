@@ -3,6 +3,7 @@ import 'package:assinment/sources/clickabletext.dart';
 import 'package:assinment/sources/loginform.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'sources/logo.dart';
 
 void main() {
@@ -17,6 +18,7 @@ class MainPage extends StatelessWidget {
     return MaterialApp(
       routes: {
         '/homepage': (context) => HomePage(),
+        '/loginpage': (context) => MainPage(),
       },
       debugShowCheckedModeBanner: false,
       home: Scaffold(
